@@ -67,12 +67,28 @@ header {
 					margin-top: 4rem;
 				}
 
-				.link-hero {
+				img {
+					padding-top: 2rem;
 					margin-left: 3rem;
+				}
+
+				.link-hero {
 					font-size: 1.6rem;
 					color: $blue;
 					border-bottom: 1px solid $blue;
 					font-weight: 600;
+					margin-left: 2em;
+
+					&::before {
+						content: " ";
+						background-image: url("../img//svg//play.svg");
+						background-size: 16px 16px;
+						display: inline-flex;
+						text-decoration: none;
+						left: 100px;
+						height: 16px;
+						width: 16px;
+					}
 				}
 			}
 		}

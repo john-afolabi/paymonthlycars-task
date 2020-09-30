@@ -1,5 +1,6 @@
 import logo from "../img/png/logo.png";
 import hero from "../img/svg/hero.svg";
+import play from "../img/svg/play.svg";
 
 export const Header = (open) => {
 	const template = `
@@ -51,23 +52,13 @@ export const Header = (open) => {
 						worth the amount they are unable to pay.
 					</p>
 					<button class="btn-primary">Hire Us</button
-					><a class="link-hero">Watch the Video</a>
+					>
+					<a class="link-hero">
+					Watch the Video</a>
 				</div>
 				<img src="${hero}" alt="debt collection" class="hero-image" />
 			</div>
 		</div>
-		<!-- <svg
-			id="bottom-curve"
-			width="100%"
-			height="100"
-			viewBox="0 0 1331 206"
-			xmlns="http://www.w3.org/2000/svg"
-			preserveAspectRatio="none"
-		>
-			<path
-				d="M0 0H1331L155.647 203.104C74.3446 217.153 0 154.554 0 72.0462V0Z"
-			/>
-		</svg> -->
 	</div>
 </header>
 

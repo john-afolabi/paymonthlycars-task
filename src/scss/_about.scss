@@ -42,7 +42,14 @@
 			justify-content: space-between;
 
 			div {
-				width: calc(33% - 1rem);
+				width: 33%;
+
+				p {
+					padding: 4rem 2rem;
+				}
+				&:not(:last-child) {
+					border-right: 0.25px solid #e2e2e2;
+				}
 			}
 		}
 		button {
