@@ -1,9 +1,9 @@
 /*--------------------------
     variables
 ---------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-$primary-font: "Maven Pro", sans-serif;
+$primary-font: "Poppins", sans-serif;
 
 //colors
 $primary-color: #ee5724;
@@ -11,6 +11,7 @@ $secondary-color: #ffd800;
 $white: #ffffff;
 $black: #000000;
 $gray: #696969;
+$blue: #0025b4;
 
 /*--------------------------
     base settings
@@ -80,7 +81,6 @@ button {
     typography
 ---------------------------*/
 h2 {
-	text-transform: capitalize;
 	color: $black;
 	font-size: 3.6rem;
 	margin-bottom: 2rem;
@@ -125,15 +125,30 @@ p {
 // Buttons
 // ----------------------------
 .btn-primary {
-	background-color: $primary-color;
+	background-image: url(../img//svg//button.svg);
+	background-size: 100% 100%;
+	width: 245px;
+	height: 67px;
 	color: $white;
-	font-weight: 600;
+	font-size: 1.6rem;
 	padding: 15px 20px;
 	border-radius: 5px;
 	border: none;
 	cursor: pointer;
 }
 
+.btn-main {
+	border-radius: 4px;
+	width: 139px;
+	height: 46px;
+	color: $white;
+	font-size: 1.6rem;
+	padding: 15px 20px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	background-color: $blue;
+}
 /*--------------------------
     mixins
 ---------------------------*/

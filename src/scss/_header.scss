@@ -11,7 +11,6 @@ header {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		box-shadow: 0 2px rgba(79, 79, 79, 0.07);
 		padding: 40px 0;
 
 		img {
@@ -21,6 +20,7 @@ header {
 		ul {
 			display: flex;
 			justify-content: space-between;
+			align-items: center;
 
 			li {
 				margin: 0 25px;
@@ -50,14 +50,11 @@ header {
 	}
 
 	.hero-bg {
-		margin: 0 -150px;
-		background-color: #f5f4fa;
-
 		.hero {
 			height: 650px;
 			display: grid;
 			grid-template-columns: 1fr 1fr;
-			grid-column-gap: 5em;
+			grid-column-gap: 2em;
 			justify-items: center;
 			align-items: center;
 			margin: 0 auto;
@@ -65,31 +62,14 @@ header {
 
 			.hero-text {
 				h2 {
-					margin-bottom: 40px;
+					margin-bottom: 3rem;
 				}
 				button {
-					margin-top: 40px;
-				}
-				.brands {
-					display: flex;
-					align-items: center;
-
-					margin-top: 60px;
-					img:nth-of-type(1) {
-						height: 20px;
-						margin-right: 20px;
-					}
-					img:nth-of-type(2) {
-						height: 25px;
-						margin-right: 20px;
-					}
-					img:nth-of-type(3) {
-						height: 25px;
-					}
+					margin-top: 4rem;
 				}
 
 				.summary-text {
-					margin-top: 50px;
+					margin-top: 3rem;
 					font-size: 1.3rem;
 					display: grid;
 					grid-template-columns: 1fr 1.5fr 1.5fr;
@@ -108,22 +88,19 @@ header {
 						padding-left: 0;
 					}
 				}
+
+				.link-hero {
+					margin-left: 3rem;
+					font-size: 1.6rem;
+					color: $blue;
+					border-bottom: 1px solid $blue;
+					font-weight: 600;
+				}
 			}
 		}
 
 		.hero-image {
-			height: 400px;
+			height: 495px;
 		}
-	}
-}
-
-#bottom-curve {
-	height: 150px;
-	width: 1440px;
-	margin: 0 -150px;
-
-	path {
-		fill: #f5f4fa;
-		stroke: #f5f4fa;
 	}
 }
