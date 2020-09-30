@@ -31,7 +31,7 @@ export const Header = (open) => {
 					<a href="#what-we-do" class="nav-link">What We Do</a>
 				</li>
 
-				<li><button class="btn-main">Hire Us</button></li>
+				<li class="nav-list"><button class="btn-main">Hire Us</button></li>
 			</ul>
 
 			
