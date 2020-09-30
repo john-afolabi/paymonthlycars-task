@@ -5,7 +5,8 @@ import client4 from "../img/jpg/clients/client-4.jpg";
 
 export const Testimonial = (open) => {
 	const template = `
-    <section class="testimonial">
+	<section class="testimonial">
+	<div class="container">
 	<h2>Hear from some of our clients</h2>
 	<div class="testimonial-card-container-1">
 		<div class="testimonial-card">
@@ -44,6 +45,7 @@ export const Testimonial = (open) => {
 	</p>
 	<div><img src="${client4}" alt="procredita testimony" /></div>
 </div>
+	</div>
 	</div>
 </section>
 

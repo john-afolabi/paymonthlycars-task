@@ -7,7 +7,7 @@ import { Footer } from "./components/Footer.js";
 
 import "./scss/main.scss";
 
-const body = document.querySelector(".container");
+const body = document.querySelector("body");
 
 const app = () => {
 	body.innerHTML = `

@@ -15,7 +15,7 @@ export const Header = (open) => {
 	<button class="hamburger">menu</button>
 </div>
 
-<header id="home">
+<header id="home" class="container">
 	<div class="header">
 		<nav class="nav">
 			<img src="${logo}" class="brand-logo" />

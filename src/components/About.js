@@ -7,6 +7,7 @@ import tech from "../img/svg/tech.svg";
 export const About = (open) => {
 	const template = `
     <section class="why-procredita" id="about">
+		<div class="container">
 		<img src="${icon}" class="brand-icon" />
 		<h2>Why Procredita</h2>
 		<div class="part-1">
@@ -62,7 +63,7 @@ export const About = (open) => {
 			</div>
 
 			<button class="btn-primary">Hire Us</button>
-		</div>
+		</div></div>
 </section>
 
     `;
