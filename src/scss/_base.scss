@@ -7,7 +7,7 @@ $primary-font: "Poppins", sans-serif;
 
 //colors
 $primary-color: #ee5724;
-$secondary-color: #ffd800;
+$secondary-color: #041e8b;
 $white: #ffffff;
 $black: #000000;
 $gray: #6d7278;
@@ -127,8 +127,7 @@ p {
 // Buttons
 // ----------------------------
 .btn-primary {
-	background-image: url(../img//svg//button.svg);
-	background-size: 100% 100%;
+	background-color: $deep-blue;
 	width: 245px;
 	height: 67px;
 	color: $white;
@@ -137,6 +136,11 @@ p {
 	border-radius: 5px;
 	border: none;
 	cursor: pointer;
+
+	&:hover {
+		background-image: url(../img//svg//button.svg);
+		background-size: 100% 100%;
+	}
 }
 
 .btn-main {
@@ -149,20 +153,24 @@ p {
 	border-radius: 5px;
 	border: none;
 	cursor: pointer;
-	background-color: $blue;
+	background-color: $deep-blue;
 }
 
 .btn-secondary {
-	background-image: url(../img//svg//button-secondary.svg);
-	background-size: 100% 100%;
+	background-color: white;
 	width: 245px;
 	height: 67px;
-	color: $blue;
+	color: $deep-blue;
 	font-size: 1.6rem;
 	padding: 15px 20px;
 	border-radius: 5px;
 	border: none;
 	cursor: pointer;
+
+	&:hover {
+		background-image: url(../img//svg//button-secondary.svg);
+		background-size: 100% 100%;
+	}
 }
 /*--------------------------
     mixins
