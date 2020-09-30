@@ -1,63 +1,89 @@
 footer {
-	background-color: #36344c;
-	margin: 0 -150px;
 	padding: 50px 0;
-
-	.schedule {
-		background-color: #403f55;
+	background-image: url(../img/png/footer-bg.png);
+	color: $gray;
+	.procredita-details {
 		display: grid;
-		grid-template-columns: 2fr 1fr;
-		grid-column-gap: 5em;
-		align-items: center;
-		justify-content: start;
-		padding: 30px 50px;
-
-		h2 {
-			color: white;
-			font-size: 2.5em;
-		}
-	}
-
-	.main-footer {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		margin-top: 80px;
-		grid-column-gap: 2.5em;
+		grid-template-columns: 1fr 1fr 1fr 2fr;
+		margin-bottom: 5rem;
 
 		div {
-			img {
-				height: 35px;
-				margin-bottom: 10px;
+			h3 {
+				color: $deep-blue;
+				margin-bottom: 1rem;
+				font-size: 2.1rem;
 			}
 
-			svg {
-				margin-top: 30px;
-				margin-right: 10px;
+			a {
+				display: block;
+				text-decoration: none;
+				color: $gray;
+				line-height: 2.4rem;
+				font-size: 1.4rem;
 			}
 		}
-	}
 
-	.footer-team {
-		margin-top: 15px;
-		p {
-			display: inline-block;
+		.column-1 {
+			div {
+				margin-top: 2rem;
+				img {
+					margin-right: 0.6rem;
+				}
+			}
 		}
-		img {
-			display: inline-block;
-			margin-right: 5px;
-			margin-bottom: -2px;
-			height: 15px;
-		}
-	}
 
-	h4 {
-		color: white;
-		font-size: 1.2em;
-		margin-bottom: 10px;
+		.column-4 {
+			// ::before {
+			// 	content: "";
+			// 	display: inline-block;
+			// 	width: 300px;
+			// 	height: 300px;
+			// 	background-image: url(../img/png/street.png);
+			// 	background-repeat: no-repeat;
+			// 	position: relative;
+			// 	left: -100px; //adjust your positioning as necessary
+			// }
+
+			.contact-card {
+				background: #ffffff;
+				box-shadow: 0px 40px 400px rgba(0, 0, 0, 0.07);
+				border-radius: 8px;
+				padding: 2rem;
+				width: 255px;
+				div {
+					display: flex;
+					justify-content: space-evenly;
+					align-items: flex-start;
+
+					p {
+						font-size: 1rem;
+						width: 150px;
+					}
+				}
+
+				// ::before {
+				// 	content: "";
+				// 	background-image: none;
+				// 	width: unset;
+				// 	height: unset;
+				// }
+			}
+		}
 	}
 
 	p {
-		color: #c1bfc9;
-		font-size: 1.2em;
+		font-size: 1.5rem;
+		font-weight: 500;
+
+		span {
+			color: $deep-blue;
+		}
+	}
+
+	p.copyright-text {
+		text-align: center;
+		font-size: 1.6rem;
+		margin-top: 3rem;
+		color: $deep-blue;
 	}
 }
