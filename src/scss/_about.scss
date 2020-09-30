@@ -1,0 +1,118 @@
+.about {
+	.how-it-works {
+		text-align: center;
+		h3 {
+			color: $primary-color;
+			font-size: 1.4rem;
+		}
+		h2 {
+			font-weight: 600;
+			margin-bottom: 90px;
+		}
+
+		.steps {
+			text-align: left;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-gap: 3em;
+
+			div {
+				span {
+					font-size: 2.5em;
+					font-weight: 600;
+					padding: 15px 25px;
+					border-radius: 50%;
+					color: white;
+					background-color: #403d56;
+				}
+
+				h3 {
+					margin-top: 40px;
+					color: #0a1627;
+					font-size: 1.8rem;
+					text-transform: none;
+				}
+			}
+		}
+		button {
+			margin-top: 50px;
+			padding: 15px 30px;
+		}
+	}
+
+	.success-story {
+		margin: 90px 0;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		grid-gap: 10em;
+
+		div {
+			width: 330px;
+
+			img {
+				width: 2.3em;
+				margin-bottom: 10px;
+			}
+			h3 {
+				color: #0a1627;
+				font-size: 3rem;
+				text-transform: none;
+			}
+			p {
+				padding-bottom: 20px;
+				border-bottom: 1px solid #0a162746;
+			}
+
+			div {
+				display: flex;
+				justify-content: space-between;
+				padding: 2em 0;
+
+				svg {
+					path {
+						fill: #b5bbc7;
+					}
+				}
+				p {
+					font-size: 1.3em;
+					margin-top: -3px;
+					border: none;
+				}
+			}
+		}
+	}
+
+	.services-bg {
+		background-color: #f5f4fa;
+		margin: 0 -150px;
+
+		.services {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-column-gap: 3em;
+			margin: 90px auto;
+			max-width: 1140px;
+			padding: 100px 0;
+			.service-card {
+				background-color: white;
+				text-align: center;
+				width: 270px;
+				height: 380px;
+				border-radius: 10px;
+				padding: 30px;
+				box-shadow: 0px -1px 14px -10px rgba(0, 0, 0, 0.329);
+
+				h3 {
+					text-transform: none;
+					margin-top: 30px;
+					font-size: 1.5rem;
+				}
+
+				&:nth-of-type(odd) {
+					margin-top: 100px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+footer {
+	background-color: #36344c;
+	margin: 0 -150px;
+	padding: 50px 0;
+
+	.schedule {
+		background-color: #403f55;
+		display: grid;
+		grid-template-columns: 2fr 1fr;
+		grid-column-gap: 5em;
+		align-items: center;
+		justify-content: start;
+		padding: 30px 50px;
+
+		h2 {
+			color: white;
+			font-size: 2.5em;
+		}
+	}
+
+	.main-footer {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		margin-top: 80px;
+		grid-column-gap: 2.5em;
+
+		div {
+			img {
+				height: 35px;
+				margin-bottom: 10px;
+			}
+
+			svg {
+				margin-top: 30px;
+				margin-right: 10px;
+			}
+		}
+	}
+
+	.footer-team {
+		margin-top: 15px;
+		p {
+			display: inline-block;
+		}
+		img {
+			display: inline-block;
+			margin-right: 5px;
+			margin-bottom: -2px;
+			height: 15px;
+		}
+	}
+
+	h4 {
+		color: white;
+		font-size: 1.2em;
+		margin-bottom: 10px;
+	}
+
+	p {
+		color: #c1bfc9;
+		font-size: 1.2em;
+	}
+}
