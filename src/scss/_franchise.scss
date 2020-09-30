@@ -1,0 +1,30 @@
+.own-franchise {
+	margin: 5rem auto;
+	img {
+		display: block;
+		margin: auto;
+	}
+
+	h2 {
+		text-align: center;
+		margin: 2rem 0 5rem;
+	}
+	.franchise {
+		display: flex;
+		justify-content: space-between;
+
+		div {
+			width: calc(50% - 4rem);
+			text-align: right;
+
+			img {
+				width: 100%;
+			}
+
+			h4 {
+				font-size: 2rem;
+				margin: 2rem auto;
+			}
+		}
+	}
+}

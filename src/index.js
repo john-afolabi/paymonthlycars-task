@@ -1,6 +1,6 @@
 import { Header } from "./components/Header.js";
 import { About } from "./components/About.js";
-import { Packages } from "./components/Packages.js";
+import { Franchise } from "./components/Franchise.js";
 import { Testimonial } from "./components/Testimonial.js";
 import { Footer } from "./components/Footer.js";
 
@@ -12,7 +12,7 @@ const app = () => {
 	body.innerHTML = `
 		${Header()}
 		${About()}
-		${Packages()}
+		${Franchise()}
 		${Testimonial()}
 		${Footer()}
     `;
