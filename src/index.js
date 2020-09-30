@@ -1,6 +1,7 @@
 import { Header } from "./components/Header.js";
 import { About } from "./components/About.js";
 import { Franchise } from "./components/Franchise.js";
+import { CTA } from "./components/CTA.js";
 import { Testimonial } from "./components/Testimonial.js";
 import { Footer } from "./components/Footer.js";
 
@@ -13,6 +14,7 @@ const app = () => {
 		${Header()}
 		${About()}
 		${Franchise()}
+		${CTA()}
 		${Testimonial()}
 		${Footer()}
     `;
