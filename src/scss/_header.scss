@@ -68,27 +68,6 @@ header {
 					margin-top: 4rem;
 				}
 
-				.summary-text {
-					margin-top: 3rem;
-					font-size: 1.3rem;
-					display: grid;
-					grid-template-columns: 1fr 1.5fr 1.5fr;
-					grid-column-gap: 2em;
-					align-items: center;
-					justify-items: start;
-
-					span {
-						color: #6b778e;
-						border-left: 1px solid #6b778e;
-						padding-left: 20px;
-					}
-
-					span:first-child {
-						border: none;
-						padding-left: 0;
-					}
-				}
-
 				.link-hero {
 					margin-left: 3rem;
 					font-size: 1.6rem;
@@ -100,7 +79,7 @@ header {
 		}
 
 		.hero-image {
-			height: 495px;
+			width: 100%;
 		}
 	}
 }
