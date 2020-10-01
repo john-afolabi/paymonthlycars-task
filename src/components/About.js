@@ -1,8 +1,8 @@
-import icon from "../img/svg/logo-icon.svg";
-import image from "../img/png/male-model.png";
-import success from "../img/svg/success.svg";
-import debt from "../img/svg/buy-debt.svg";
-import tech from "../img/svg/tech.svg";
+import icon from "../assets/img/svg/logo-icon.svg";
+import image from "../assets/img/png/male-model.png";
+import success from "../assets/img/svg/success.svg";
+import debt from "../assets/img/svg/buy-debt.svg";
+import tech from "../assets/img/svg/tech.svg";
 
 export const About = (open) => {
 	const template = `

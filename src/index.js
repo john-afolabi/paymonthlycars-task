@@ -5,7 +5,7 @@ import { CTA } from "./components/CTA.js";
 import { Testimonial } from "./components/Testimonial.js";
 import { Footer } from "./components/Footer.js";
 
-import "./scss/main.scss";
+import "./assets/scss/main.scss";
 
 const body = document.querySelector("body");
 

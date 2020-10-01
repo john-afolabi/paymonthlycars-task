@@ -3,6 +3,13 @@
 ---------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+@font-face {
+	font-family: "Trueno Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Trueno Regular"), url("../fonts//TruenoRg.woff") format("woff");
+}
+
 $primary-font: "Poppins", sans-serif;
 
 //colors
@@ -136,6 +143,7 @@ p {
 	width: 245px;
 	height: 67px;
 	color: $white;
+	font-family: "Trueno Regular";
 	font-size: 1.6rem;
 	padding: 15px 20px;
 	border-radius: 5px;
@@ -149,16 +157,15 @@ p {
 }
 
 .btn-main {
-	border-radius: 4px;
 	width: 139px;
 	height: 46px;
 	color: $white;
-	font-size: 1.6rem;
-	padding: 15px 20px;
+	font-size: 1.4rem;
 	border-radius: 5px;
 	border: none;
 	cursor: pointer;
 	background-color: $deep-blue;
+	font-family: "Trueno Regular";
 }
 
 .btn-secondary {
@@ -171,6 +178,7 @@ p {
 	border-radius: 5px;
 	border: none;
 	cursor: pointer;
+	font-family: "Trueno Regular";
 
 	&:hover {
 		background-image: url(../img//svg//button-secondary.svg);

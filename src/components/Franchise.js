@@ -1,5 +1,5 @@
-import icon from "../img/svg/logo-icon.svg";
-import franchise from "../img/png/franchise.png";
+import icon from "../assets/img/svg/logo-icon.svg";
+import franchise from "../assets/img/png/franchise.png";
 
 export const Franchise = (open) => {
 	const template = `

@@ -1,7 +1,7 @@
-import client1 from "../img/jpg/clients/client-1.jpg";
-import client2 from "../img/jpg/clients/client-2.jpg";
-import client3 from "../img/jpg/clients/client-3.jpg";
-import client4 from "../img/jpg/clients/client-4.jpg";
+import client1 from "../assets/img/jpg/clients/client-1.jpg";
+import client2 from "../assets/img/jpg/clients/client-2.jpg";
+import client3 from "../assets/img/jpg/clients/client-3.jpg";
+import client4 from "../assets/img/jpg/clients/client-4.jpg";
 
 export const Testimonial = (open) => {
 	const template = `

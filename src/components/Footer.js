@@ -1,11 +1,11 @@
-import logo from "../img/png/logo-icon.png";
-import facebook from "../img/svg/social/facebook.svg";
-import instagram from "../img/svg/social/instagram.svg";
-import linkedin from "../img/svg/social/linkedin.svg";
-import twitter from "../img/svg/social/twitter.svg";
-import location from "../img/svg/location.svg";
-import phone from "../img/svg/phone.svg";
-import email from "../img/svg/email.svg";
+import logo from "../assets/img/png/logo-icon.png";
+import facebook from "../assets/img/svg/social/facebook.svg";
+import instagram from "../assets/img/svg/social/instagram.svg";
+import linkedin from "../assets/img/svg/social/linkedin.svg";
+import twitter from "../assets/img/svg/social/twitter.svg";
+import location from "../assets/img/svg/location.svg";
+import phone from "../assets/img/svg/phone.svg";
+import email from "../assets/img/svg/email.svg";
 
 export const Footer = (open) => {
 	const template = `

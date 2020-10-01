@@ -1,5 +1,5 @@
-import logo from "../img/png/logo.png";
-import hero from "../img/svg/hero.svg";
+import logo from "../assets/img/png/logo.png";
+import hero from "../assets/img/svg/hero.svg";
 
 export const Header = (open) => {
 	const template = `
