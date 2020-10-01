@@ -76,8 +76,12 @@ button {
 // 	grid-template-rows: repeat(7, min-content);
 // }
 .container {
-	width: 75%;
+	max-width: 1440px;
 	margin: 0 auto;
+
+	@media screen and (max-width: 992px) {
+		max-width: 75%;
+	}
 }
 
 .full-width {
