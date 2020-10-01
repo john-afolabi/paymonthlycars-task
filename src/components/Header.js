@@ -10,9 +10,9 @@ export const Header = (open) => {
 			<li><a href="#about-us">About Us</a></li>
 			<li><a href="#what-we-do">What We Do</a></li>
 		</ul>
-		<button class="nav-cta">Hire Us</button>
+		<button class="btn-secondary">Hire Us</button>
 	</nav>
-	<button class="hamburger">menu</button>
+	<button class="hamburger">MENU</button>
 </div>
 
 <header id="home" class="container">
