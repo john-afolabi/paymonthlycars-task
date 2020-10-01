@@ -16,12 +16,23 @@
 		justify-content: space-between;
 		align-items: flex-start;
 
+		@media screen and (max-width: 992px) {
+			flex-direction: column-reverse;
+		}
+
 		p {
 			width: calc(55% - 2rem);
+			@media screen and (max-width: 992px) {
+				width: unset;
+				margin-top: 5rem;
+			}
 		}
 
 		div {
 			width: calc(45% - 2rem);
+			@media screen and (max-width: 992px) {
+				width: unset;
+			}
 
 			img {
 				width: 100%;
@@ -41,14 +52,27 @@
 			display: flex;
 			justify-content: space-between;
 
+			@media screen and (max-width: 992px) {
+				flex-direction: column;
+			}
+
 			div {
 				width: 33%;
+				@media screen and (max-width: 992px) {
+					width: unset;
+				}
 
 				p {
 					padding: 4rem 2rem;
 				}
 				&:not(:last-child) {
 					border-right: 0.25px solid #e2e2e2;
+
+					@media screen and (max-width: 992px) {
+						border-right: unset;
+						border-bottom: 0.25px solid #e2e2e2;
+						margin-bottom: 3rem;
+					}
 				}
 			}
 		}
