@@ -42,6 +42,7 @@ const allLinks = document.querySelectorAll(".links-nav li a");
 allLinks.forEach((link) => {
 	link.addEventListener("click", () => {
 		mobileNav.classList.remove("openNav");
+		hamburger.classList.remove("open");
 		document.querySelector(".hamburger").textContent = "menu";
 	});
 });
