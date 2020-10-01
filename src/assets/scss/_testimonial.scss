@@ -10,9 +10,12 @@
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 6rem;
-
 		@media screen and (max-width: 992px) {
 			flex-direction: column;
+
+			// :last-child {
+			// 	margin-left: 5rem;
+			// }
 		}
 		.testimonial-card {
 			width: calc(50% - 7rem);
@@ -37,6 +40,22 @@
 					border-radius: 50%;
 				}
 			}
+		}
+	}
+
+	.testimonial-card-container-1 {
+		margin-left: -8rem;
+
+		@media screen and (max-width: 992px) {
+			margin-left: unset;
+		}
+	}
+
+	.testimonial-card-container-2 {
+		margin-right: -8rem;
+
+		@media screen and (max-width: 992px) {
+			margin-right: unset;
 		}
 	}
 }
