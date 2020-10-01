@@ -10,8 +10,18 @@
 		display: flex;
 		justify-content: space-between;
 		margin-bottom: 6rem;
+
+		@media screen and (max-width: 992px) {
+			flex-direction: column;
+		}
 		.testimonial-card {
 			width: calc(50% - 7rem);
+			@media screen and (max-width: 992px) {
+				width: unset;
+				&:not(:last-child) {
+					margin-bottom: 5rem;
+				}
+			}
 			p {
 				background-color: white;
 				box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
