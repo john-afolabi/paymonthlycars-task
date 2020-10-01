@@ -6,8 +6,8 @@ export const Header = (open) => {
     <div class="mobile-nav">
 	<nav class="links-nav">
 		<ul>
-			<li><a href="#homr">Home</a></li>
-			<li><a href="#about-us">About Us</a></li>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About Us</a></li>
 			<li><a href="#what-we-do">What We Do</a></li>
 			<li><button class="btn-secondary">Hire Us</button></li>
 		</ul>
@@ -23,10 +23,10 @@ export const Header = (open) => {
 
 			<ul>
 				<li class="nav-list">
-					<a href="#home" class="nav-link">Home</a>
+					<a href="#" class="nav-link">Home</a>
 				</li>
 				<li class="nav-list">
-					<a href="#about-us" class="nav-link">About Us</a>
+					<a href="#about" class="nav-link" >About Us</a>
 				</li>
 				<li class="nav-list">
 					<a href="#what-we-do" class="nav-link">What We Do</a>

@@ -9,7 +9,7 @@ import email from "../img/svg/email.svg";
 
 export const Footer = (open) => {
 	const template = `
-	<footer>
+	<footer >
 	<div class="container">
 	<div class="procredita-details">
 		<div class="column-1">

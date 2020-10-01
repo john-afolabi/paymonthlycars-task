@@ -3,7 +3,7 @@ import franchise from "../img/png/franchise.png";
 
 export const Franchise = (open) => {
 	const template = `
-    <section class="own-franchise">
+    <section class="own-franchise" id="what-we-do">
 	<div class="container">
 	<img src="${icon}" class="brand-icon" />
 	<h2>Own a Procredita Regional Franchise</h2>
