@@ -41,11 +41,11 @@
 			transition: all 0.1s ease;
 			font-size: 3rem;
 			letter-spacing: 2px;
-			text-decoration: underline;
+			border-bottom: 2px solid white;
+			padding: 1rem 0;
 
 			&:hover {
-				padding-bottom: 5px;
-				border-bottom: $primary-color solid 3px;
+				border-bottom: unset;
 			}
 		}
 	}
