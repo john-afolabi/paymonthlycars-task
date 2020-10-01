@@ -91,6 +91,8 @@ header {
 				border-bottom: 1px solid $blue;
 				font-weight: 600;
 				margin-left: 2em;
+				white-space: nowrap;
+				padding-top: 20em;
 
 				&::before {
 					content: " ";
@@ -98,9 +100,11 @@ header {
 					background-size: 16px 16px;
 					display: inline-flex;
 					text-decoration: none;
-					left: 100px;
 					height: 16px;
 					width: 16px;
+				}
+
+				@media screen and (max-width: 576px) {
 				}
 			}
 		}
