@@ -78,9 +78,11 @@ button {
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
+	padding: 0 10em;
 
 	@media screen and (max-width: 992px) {
 		max-width: 75%;
+		padding: unset;
 	}
 }
 
