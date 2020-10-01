@@ -13,9 +13,17 @@
 		display: flex;
 		justify-content: space-between;
 
+		@media screen and (max-width: 992px) {
+			flex-direction: column;
+		}
+
 		div {
 			width: calc(50% - 4rem);
 			text-align: right;
+
+			@media screen and (max-width: 992px) {
+				width: unset;
+			}
 
 			img {
 				max-width: 80%;
