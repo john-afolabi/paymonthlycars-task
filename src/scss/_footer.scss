@@ -2,6 +2,13 @@ footer {
 	padding: 10rem;
 	background-image: url(../img/png/footer-bg.png);
 	color: $gray;
+
+	@media screen and (max-width: 992px) {
+		padding: 10rem 5rem;
+	}
+	@media screen and (max-width: 576px) {
+		padding: 10rem 2rem;
+	}
 	.procredita-details {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 2fr;
