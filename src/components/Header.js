@@ -38,7 +38,7 @@ export const Header = (open) => {
 			
 		</nav>
 
-		<div class="hero-bg">
+		
 			<div class="hero">
 				<div class="hero-text">
 					<h2>We provide a comprehensive debt collection service</h2>
@@ -56,9 +56,9 @@ export const Header = (open) => {
 					<a class="link-hero">
 					Watch the Video</a>
 				</div>
-				<img src="${hero}" alt="debt collection" class="hero-image" />
+				<div><img src="${hero}" alt="debt collection" class="hero-image" /></div>
 			</div>
-		</div>
+	
 	</div>
 </header>
 
