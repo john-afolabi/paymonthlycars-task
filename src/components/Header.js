@@ -9,8 +9,9 @@ export const Header = (open) => {
 			<li><a href="#homr">Home</a></li>
 			<li><a href="#about-us">About Us</a></li>
 			<li><a href="#what-we-do">What We Do</a></li>
+			<li><button class="btn-secondary">Hire Us</button></li>
 		</ul>
-		<button class="btn-secondary">Hire Us</button>
+		
 	</nav>
 	<button class="hamburger">MENU</button>
 </div>

@@ -23,13 +23,16 @@ const app = () => {
 app();
 
 const mobileNav = document.querySelector(".mobile-nav");
-console.log(mobileNav.classList);
+const hamburger = document.querySelector(".hamburger");
+console.log(hamburger.classList);
 const openNav = () => {
 	if (mobileNav.classList.contains("openNav")) {
 		mobileNav.classList.remove("openNav");
+		hamburger.classList.remove("open");
 		document.querySelector(".hamburger").textContent = "menu";
 	} else {
 		mobileNav.classList.add("openNav");
+		hamburger.classList.add("open");
 		document.querySelector(".hamburger").textContent = "close";
 	}
 };
